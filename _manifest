@@ -1,4 +1,7 @@
-applications:
-  - name: demonode
+applications:                               
+  - name: my-sample-app-01
     memory: 256M
-    path: nodejs-app
+    path: ./
+    buildpacks:
+      - nodejs_buildpack
+      
